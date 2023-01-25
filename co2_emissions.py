@@ -45,7 +45,7 @@ value=[min_year,max_year])
 
 # List of Countries and Regions
 sorted_countries = sorted(co2_data['country'].unique())
-selected_country = st.sidebar.multiselect('Select country or group',sorted_countries,default=['United States','China','Russia','India'])
+selected_country = st.sidebar.multiselect('Select country or group',sorted_countries,default=['United States','Europe','China','Russia','India'])
 
 st.sidebar.markdown("Sources:")
 st.sidebar.markdown("""
